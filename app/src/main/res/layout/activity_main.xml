@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.pogiba.customview.MainActivity">
+
+<!--    <com.pogiba.customview.SmileyView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />-->
+
+    <com.pogiba.customview.TagLayout
+        android:id="@+id/tagLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#59a795"/>
+
+</android.support.constraint.ConstraintLayout>
